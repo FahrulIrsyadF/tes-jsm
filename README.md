@@ -14,6 +14,22 @@ pnpm dev
 bun dev
 ```
 
+Install the JSON server by using this command:
+
+```bash
+npm install -g json-server
+# or
+npm i json-server
+```
+
+Start up JSON server on port 3001 using this command:
+
+```bash
+json-server db.json -p 3001
+# or
+json-server -w db.json -p 3001
+```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
